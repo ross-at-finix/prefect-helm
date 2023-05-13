@@ -133,10 +133,10 @@ serviceAccount:
 service:
   # -- service type
   type: ClusterIP
-  # -- service port
+  # -- server port
   port: 4200
-  # -- target port
-  targetPort: ~
+  # -- exposed k8s service port
+  servicePort: ~
   # -- service Cluster IP
   clusterIP: ""
   # -- service port if defining service as type nodeport
