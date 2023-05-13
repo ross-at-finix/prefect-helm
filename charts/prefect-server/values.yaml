@@ -135,6 +135,8 @@ service:
   type: ClusterIP
   # -- service port
   port: 4200
+  # -- target port
+  targetPort: ~
   # -- service Cluster IP
   clusterIP: ""
   # -- service port if defining service as type nodeport
